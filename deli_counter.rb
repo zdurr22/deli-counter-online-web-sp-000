@@ -1,3 +1,5 @@
+array = []
+
 def line(array)
   line_positions = []
   if array.empty?
