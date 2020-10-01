@@ -1,7 +1,9 @@
 def line(array)
-  if array.size == 0
+  if array.empty?
     puts "The line is currently empty."
   else
-    puts "The line is currently " + array.join(", ") + "."
+    number = 1
+    array.each do |customer|
+    line_positions << "#{number}. #{customer}"
   end
 end
