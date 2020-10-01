@@ -6,6 +6,7 @@ def line(array)
     number = 1
     array.each do |customer|
       line_positions << "#{number}. #{customer}"
+      number += 1
       puts line_positions
     end
   end
