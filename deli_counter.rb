@@ -23,6 +23,6 @@ def now_serving(katz_deli)
   if katz_deli.empty?
     puts "The line is empty."
   else
-    puts "Currently serving #{name}."
+    puts "Currently serving #{katz_deli[0]}."
   end
 end
