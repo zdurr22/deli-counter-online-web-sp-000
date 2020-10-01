@@ -4,7 +4,8 @@ def line(array)
   else
     number = 1
     array.each do |customer|
-    line_positions << "#{number}. #{customer}"
-    puts line_position
+      line_positions << "#{number}. #{customer}"
+      puts line_position
+    end
   end
 end
